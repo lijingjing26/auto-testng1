@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="suitname">
+    <test name="runall">
+
+        <classes>
+            <class name="groups.GroupsOnClass1"/>
+            <class name="groups.GroupsOnClass2"/>
+            <class name="groups.GroupsOnClass3"/>
+        </classes>>
+
+    </test>
+   <test name="onlyrunstu">
+       <groups>    <run>  <include name="stu"/>      </run> </groups>
+       <classes>
+           <class name="groups.GroupsOnClass1"/>
+           <class name="groups.GroupsOnClass2"/>
+           <class name="groups.GroupsOnClass3"/>
+       </classes>>
+   </test>
+</suite>
